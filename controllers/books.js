@@ -1,6 +1,9 @@
 
+
+const allBooks = require('../data/books.json');
+
 exports.getAllBooks = (req, res) => {
-    res.send('List of all books');
+    res.json(allBooks);
 }
 
 exports.getBookById = (req, res) => {

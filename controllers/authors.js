@@ -1,5 +1,10 @@
+
+
+const allAuthors = require('../data/authors.json');
+
+
 exports.getAllAuthors = (req, res) => {
-    res.send('List of all authors');
+    res.json(allAuthors);
 }
 
 exports.getAuthorById = (req, res) => {
