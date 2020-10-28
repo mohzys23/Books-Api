@@ -10,10 +10,6 @@ exports.getAllBooks = async (req, res) => {
 }
 
 exports.getBookById = async (req, res) => {
-
-    const bookId = req.params.bookId;
-     // Get books from db by Id
-    const book = await BookModel.findById(bookId);
     res.send('Specific book with ID, bookID');
 }
 
@@ -27,6 +23,7 @@ exports.createNewBook = async (req, res) => {
         res.status(500).send(error.message);
     }
 }
+
 
 
 exports.deleteBookById = (req, res) => {

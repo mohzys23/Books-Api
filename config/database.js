@@ -11,7 +11,7 @@ const connectToDatabase = async () => {
             useCreateIndex: true
         }
         );
-        console.log("Database connection successful");
+        console.log('Database connection successful');
     } catch (error) {
         console.log(error.message);
     }

@@ -7,7 +7,8 @@ const app = express();
 // Declear you port
 const port = 3000
 
-
+// Mongodb connection
+require('./config/database');
 
 
 // Apply Router as Middleware
