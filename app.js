@@ -5,7 +5,7 @@ const router =require('./routes');
 // Create your react app
 const app = express();
 // Declear you port
-const port = 3000
+const port = process.env.PORT || 3000;
 
 // Mongodb connection
 require('./config/database');
