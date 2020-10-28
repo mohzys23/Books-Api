@@ -1,0 +1,5 @@
+{
+  "env": {
+    "MONGO_URI": "mongodb+srv://mosesdb:Ebubeubah@cluster0.ccpir.mongodb.net/mosesdb?retryWrites=true&w=majority"
+  }
+}

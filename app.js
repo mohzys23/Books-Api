@@ -10,6 +10,8 @@ const port = 3000
 // Mongodb connection
 require('./config/database');
 
+// Apply JSON Middleware
+app.use(express.json());
 
 // Apply Router as Middleware
 app.use(router);
